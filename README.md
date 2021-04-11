@@ -30,6 +30,8 @@ const { SchoolIndex } = require("school-index");
 
 #### Get schools without any filter
 
+<br />
+
 ##### All schools
 
 ```js
@@ -42,11 +44,15 @@ const ... = await Index.getAllSchools();
 const ... = await Index.getAllSchools(number);
 ```
 
+<br />
+
 #### Get school by his code
 
 ```js
 const ... = await Index.getSchoolByCode(code);
 ```
+
+<br />
 
 #### Get schools by his country
 
@@ -62,6 +68,8 @@ const ... = await Index.getSchoolsByRegion(region);
 const ... = await Index.getSchoolsByRegion(region, number);
 ```
 
+<br />
+
 #### Get schools by his district
 
 ##### All schools
@@ -76,6 +84,8 @@ const ... = await Index.getSchoolsByDistrict(district);
 const ... = await Index.getSchoolsByDistrict(district, number);
 ```
 
+<br />
+
 #### Get schools by his city
 
 ##### All schools
@@ -89,6 +99,8 @@ const ... = await Index.getSchoolsByCity(city);
 ```js
 const ... = await Index.getSchoolsByCity(city, number);
 ```
+
+<br />
 
 #### Get schools by his cap
 
