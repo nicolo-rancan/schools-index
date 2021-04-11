@@ -9,6 +9,7 @@ class SchoolIndex
     let schools = [];
 
     if (!limit) limit = this.index.length;
+    if (limit > this.index.length) limit = this.index.length
 
     for (let i = 0; i < limit; i++)
       schools.push(this.index[i]);
@@ -35,6 +36,7 @@ class SchoolIndex
     let schools = [];
 
     if (!limit) limit = this.index.length;
+    if (limit > this.index.length) limit = this.index.length
 
     for (let i = 0; i < this.index.length && i < limit; i++) {
       if (this.index[i].cistat_reg.toUpperCase() == region.toUpperCase()) {
@@ -49,6 +51,7 @@ class SchoolIndex
     let schools = [];
 
     if (!limit) limit = this.index.length;
+    if (limit > this.index.length) limit = this.index.length
 
     for (let i = 0; i < this.index.length && i < limit; i++) {
       if (this.index[i].cistat_prov.toUpperCase() == district.toUpperCase()) {
@@ -63,13 +66,14 @@ class SchoolIndex
     let schools = [];
 
     if (!limit) limit = this.index.length;
-    let i = 0;
-    for (i = 0; i < this.index.length && i < limit; i++) {
+    if (limit > this.index.length) limit = this.index.length
+
+    for (let i = 0; i < this.index.length && i < limit; i++) {
       if (this.index[i].cistat_com.toUpperCase() == city.toUpperCase()) {
         schools.push(this.index[i]);
       }
     }
-    console.log(i);
+
     return schools;
   }
 
@@ -77,6 +81,7 @@ class SchoolIndex
     let schools = [];
 
     if (!limit) limit = this.index.length;
+    if (limit > this.index.length) limit = this.index.length
 
     for (let i = 0; i < this.index.length && i < limit; i++) {
       if (this.index[i].ccap == cap) {
