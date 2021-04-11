@@ -1,6 +1,9 @@
 # Schools Index
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<br />
+
 [![NPM](https://nodei.co/npm/schools-index.png?compact=true)](https://npmjs.org/package/schools-index)
 
 ##### You can use this package to access to the italian school index.
