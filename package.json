@@ -1,11 +1,11 @@
 {
-  "name": "school-index",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Nicolò Rancan",
-  "license": "MIT"
+	"name": "school-index",
+	"version": "1.0.0",
+	"description": "A package that allows you surfing the italian school index. ",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Nicolò Rancan",
+	"license": "MIT"
 }
